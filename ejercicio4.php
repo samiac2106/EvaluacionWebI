@@ -28,18 +28,15 @@
             $horaExtra= 25000;
             $salarioBas= 40*20000;
             $result = '';
-          }
-
+        
           if ($cantHoras <= 40) {
             $result = $cantHoras * 20000;
-            echo ("El total es de:   " . $result);
+            echo ("El total a pagar es de:   " . $result);
           } elseif ($cantHoras > 40) {
             $result = $horaSemana * 25000 + $salarioBas;
-            echo ("El total es de:   " . $result);
-          } else {
-            $echo("Lo siento, no tienes derecho a descuento ");
-          }
-
+            echo ("El total a pagar es de:   " . $result);
+          } 
+        }
           ?>
 
 
